@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <meta name="description" content="The Night Cap Restaurant - we have menu with many dishes.">
+    <meta name="keywords" content="The Night Cap Restaurant">
+    <link rel="stylesheet" href="menu stylesheet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script defer src="https://kit.fontawesome.com/b8be333c62.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta name="author" content="We thinc solutions">
+    <meta name="author" content="Ravula Pranay Kumar Reddy">
+    <meta name="author" content="Bokka Varun Reddy">
+    <meta name="author" content="Bokka Nirvan Reddy">
+    <script>
+        $(document).ready(function() {
+            $(".men-det").hover(function() {
+                    $(this).addClass("men-click");
+                },
+                function() {
+                    $(this).removeClass("men-click")
+                });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="flex-col">
+        <div class="men-hed">
+            <div><img class="men-log" onclick="location.href='index.html'" src="total.PNG" alt=""></div>
+            <div>
+                <h1 class="content-h1 cwhite1">Menu</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <br>
+        <h1 class="tx-pad content-h3 cwhite1">Filter by Category:</h1>
+        <div class="cwhite men-chec">
+            <div><input class="check-box" type="checkbox" name="fl-typ" value="Veg" id="Veg" />
+                <label class="label-box" for="Veg">Veg</label></div>
+            <div><input class="check-box" type="checkbox" name="fl-typ" value="Non-Veg" id="Non-Veg" />
+                <label class="label-box" for="Non-Veg">Non-Veg</label></div>
+
+        </div>
+        <br>
+        <h1 class="tx-pad content-h3 cwhite1">Filter by Foodstuff:</h1>
+        <div class="cwhite men-chec">
+            <div><input class="check-box" type="checkbox" name="fl-cat" value="Chicken" id="Chicken" />
+                <label class="label-box" for="Chicken">Chicken </label></div>
+            <div><input class="check-box" type="checkbox" name="fl-cat" value="Burger" id="Burger" />
+                <label class="label-box" for="Burger">Burger</label></div>
+            <div><input class="check-box" type="checkbox" name="fl-cat" value="Snacks" id="Snacks" />
+                <label class="label-box" for="Snacks">Snacks</label></div>
+            <div><input class="check-box" type="checkbox" name="fl-cat" value="Combos" id="Combos" />
+                <label class="label-box" for="Combos">Combos</label></div>
+        </div>
+
+
+    </div>
+
+
+    <br><br>
+
+
+
+    <div class="menu-list">
+        <div class="menu-card ch1 flower" data-id="chicken-wings" data-category="Chicken Non-Veg">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Wings</p>
+                        </div>
+                        <div>
+                            <p>299/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>12 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="chicken-strips" data-category="Chicken Non-Veg">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Strips</p>
+                        </div>
+                        <div>
+                            <p>399/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>12 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="chicken-popcorn" data-category="Chicken Non-Veg">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Popcorn</p>
+                        </div>
+                        <div>
+                            <p>349/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="fried-chicken" data-category="Chicken Non-Veg">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Fried Chicken</p>
+                        </div>
+                        <div>
+                            <p>279/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>Regular .......... 279/- </li>
+                            <li>Large ............. 449/- </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="menu-card ch1 flower" data-id="chicken-combo" data-category="Chicken Non-Veg Combos">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Mingles</p>
+                        </div>
+                        <div>
+                            <p>279/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>6 Pcs Chicken Wings.</li>
+                            <li>3 Pcs Boneless Strips. </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="chicken-combo" data-category="Chicken Non-Veg Combos">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Crunchy Chinken </p>
+                        </div>
+                        <div>
+                            <p>329/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>6 Pcs Boneless Strips.</li>
+                            <li>Chicken Popcorn Large. </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-card ch1 flower" data-id="chicken-combo" data-category="Chicken Non-Veg Combos">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Crunchy Chinken </p>
+                        </div>
+                        <div>
+                            <p>329/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>2 Pcs Fried Chicken.</li>
+                            <li>6 Pcs Chicken Wings. </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-card ch1 flower" data-id="chicken-combo" data-category="Chicken Non-Veg Combos">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Triple Bucket </p>
+                        </div>
+                        <div>
+                            <p>329/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>2 Pcs Fried Chicken.</li>
+                            <li>6 Pcs Chicken Wings. </li>
+                            <li>6 Pcs Popcorn Large. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-card ch1 flower" data-id="chicken-combo" data-category="Chicken Non-Veg Combos">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Monster Bucket </p>
+                        </div>
+                        <div>
+                            <p>499/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>3 Pcs Fried Chicken.</li>
+                            <li>5 Pcs Chicken Wings. </li>
+                            <li>6 Pcs Boneless Strips. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-card ch1 flower" data-id="benefit-box" data-category="Chicken Non-Veg Burger Snacks">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Benefit Box</p>
+                        </div>
+                        <div>
+                            <p>219/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>Crispy Chicken Burger.</li>
+                            <li>2 Pcs Chicken Wings. </li>
+                            <li>French Fries. </li>
+                            <li>Coke. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="Delight-box" data-category="Chicken Non-Veg Burger ">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Delight Box</p>
+                        </div>
+                        <div>
+                            <p>279/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>Crispy Chicken Burger.</li>
+                            <li>2 Pcs Chicken Wings. </li>
+                            <li>2 Pcs Chicken Strips. </li>
+                            <li>Coke. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="carnival-box" data-category="Chicken Non-Veg Burger Snacks">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Benefit Box</p>
+                        </div>
+                        <div>
+                            <p>219/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>Crispy Chicken Burger.</li>
+                            <li>2 Pcs Chicken Wings. </li>
+                            <li>2 Pcs Chicken Strips. </li>
+                            <li>1 Pcs Fried Chicken. </li>
+                            <li>Coke. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="french-fries" data-category=" Veg Snacks">
+            <div class="men-det">
+                <div class="vg-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>French Fries</p>
+                        </div>
+                        <div>
+                            <p>109/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>Regular .......... 69/- </li>
+                            <li>Large ............. 109/- </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="potato-pops" data-category=" Veg Snacks">
+            <div class="men-det">
+                <div class="vg-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Potato Pops</p>
+                        </div>
+                        <div>
+                            <p>79/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>16 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="Veg-nuggets" data-category=" Veg Snacks">
+            <div class="men-det">
+                <div class="vg-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Veg Nuggets</p>
+                        </div>
+                        <div>
+                            <p>79/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>6 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="veg-strips" data-category=" Veg Snacks">
+            <div class="men-det">
+                <div class="vg-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Veg Strips</p>
+                        </div>
+                        <div>
+                            <p>79/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>4 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="chicken-popcorn" data-category="Chicken Non-Veg Snacks">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Popcorn</p>
+                        </div>
+                        <div>
+                            <p>179/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>Regular .......... 99/- </li>
+                            <li>Large ............. 179/- </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="chicken-nuggets" data-category="Chicken Non-Veg Snacks">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Nuggets</p>
+                        </div>
+                        <div>
+                            <p>109/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>8 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="chicken-strips" data-category="Chicken Non-Veg Snacks">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Strips</p>
+                        </div>
+                        <div>
+                            <p>109/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>3 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card ch1 flower" data-id="chicken-wings" data-category="Chicken Non-Veg Snacks">
+            <div class="men-det">
+                <div class="non-mrk">
+                    <div></div>
+                </div>
+                <img src="varun.jpg">
+                <div class="overlay">
+                    <div class="details">
+                        <div>
+                            <p>Chinken Wings</p>
+                        </div>
+                        <div>
+                            <p>89/-</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <ul class="list">
+                            <li>3 Pcs </li>
+                        </ul>
+                        <div class="dis-img"><img src="total.PNG" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <footer>
+        <div id="madeby">
+            <a href="https://wethinc.in">made by &nbsp;<span style="font-size: 150%;">WeThinc.in</span></a>
+        </div>
+    </footer>
+    <br><br><br>
+
+
+
+    <script>
+        var $filterCheckboxes = $('input[type="checkbox"]');
+        var filterFunc = function() {
+            var selectedFilters = {};
+            $filterCheckboxes.filter(':checked').each(function() {
+                if (!selectedFilters.hasOwnProperty(this.name)) {
+                    selectedFilters[this.name] = [];
+                }
+                selectedFilters[this.name].push(this.value);
+            });
+
+            var $filteredResults = $('.flower');
+
+            $.each(selectedFilters, function(name, filterValues) {
+                $filteredResults = $filteredResults.filter(function() {
+                    var matched = false,
+                        currentFilterValues = $(this).data('category').split(' ');
+                    $.each(currentFilterValues, function(_, currentFilterValue) {
+                        if ($.inArray(currentFilterValue, filterValues) != -1) {
+                            matched = true;
+                            return false;
+                        }
+                    });
+                    return matched;
+                });
+            });
+
+            $('.flower').hide().filter($filteredResults).show();
+        }
+
+        $filterCheckboxes.on('change', filterFunc);
+    </script>
+</body>
+
+</html>

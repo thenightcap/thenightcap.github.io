@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Night Cap Restaurant</title>
+    <meta name="description" content="The Night Cap Restaurant - we have many dishes with awesome taste and good ambience. we are at 2-24/1, Sapthagiri Colony, Narapally, Hyderabad">
+    <meta name="keywords" content="The Night Cap Restaurant">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/b8be333c62.js" crossorigin="anonymous" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta name="author" content="We thinc solutions">
+    <meta name="author" content="Ravula Pranay Kumar Reddy">
+    <meta name="author" content="Bokka Varun Reddy">
+    <meta name="author" content="Bokka Nirvan Reddy">
+    <script>
+        /*animation on scroll for slide in*/
+        $(window).scroll(function() {
+            $(".slideanim").each(function() {
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 500) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="div-loading">
+        <div class="loading-lg">
+            <img id="spoon_left" src="images/spoon_left.PNG" alt="">
+            <img id="spoon_right" src="images/spoon_right.PNG" alt="">
+            <img id="star_1" class="star-img" src="images/star_1.PNG" alt="">
+            <img id="star_2" class="star-img" src="images/star_2.PNG" alt="">
+            <img id="star_3" class="star-img" src="images/star_3.PNG" alt="">
+            <img id="star_4" class="star-img" src="images/star_4.PNG" alt="">
+            <img id="star_5" class="star-img" src="images/star_5.PNG" alt="">
+            <img id="night_cap" src="images/night cap.PNG" alt="">
+        </div>
+        <div class="div-hr-loc">
+            <div class="hr-p1">
+                <h1 class="content-h2 cwhite1">12:00 AM to 3:00 PM</h1>
+            </div>
+            <div class="loc-p1">
+                <h1 class="content-h2 cwhite1">Sunday to Saturday</h1>
+            </div>
+        </div>
+        <div class="adrrs tecenter">
+            <h1 class="content-h2 cwhite1 ">2-24/1, Sapthagiri Colony, Narapally, Hyderabad</h1>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div id="night-map">
+        <div class="nav-links slideanim">
+            <div class="nav-clicks" onclick="location.href='menu.html'">
+                <div>
+                    <div class="nav-cirl">
+                        <div class="flex-row">
+                            <img src="images/indiv copy.png" style="transform: rotateZ(75deg);
+                            width: 60px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-text">
+                    <div class="flex-col text">
+                        <h1 class="">Food Menu</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-clicks " onclick="location.href='https://www.zomato.com/hyderabad/the-night-cap-narapally' ">
+                <div>
+                    <div class="nav-cirl ">
+                        <div class="flex-row">
+                            <img src="images/zomato white.png" style="transform: rotateZ(75deg);
+                            width: 60px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-text ">
+                    <div class="flex-col ">
+                        <h1 class="">Order now</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-clicks " onclick="location.href='#fb' ">
+                <div>
+                    <div class="nav-cirl ">
+                        <div class="flex-row">
+                            <i class="cwhite1 fas fa-edit" aria-hidden="true" style="
+                            transform: rotateZ(75deg);
+                            font-size: 50px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-text ">
+                    <div class="flex-col ">
+                        <h1 class="">Feedbacks</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-clicks " onclick="location.href='#tea' ">
+                <div>
+                    <div class="nav-cirl ">
+                        <div class="flex-row"><i class="cwhite1 fas fa-info-circle" aria-hidden="true" style="transform: rotateZ(75deg);
+                                font-size: 60px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-text ">
+                    <div class="flex-col ">
+                        <h1 class="">About</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="div-img-view"></div>
+
+
+        <div id="fb" class="flex-row mq-fx-col flex-spa-eve ">
+            <div class="half-side-width  slideanim flex-col">
+                <h1 class="content-h1 cwhite1">Feedbacks</h1><br>
+                <div class="slideshow-feed">
+                    <div class="tex-spac">
+                        <div class="mySlides trans-in">
+                            <div class="text">
+                                <p class="content-p"> Great place for the locals, The food is great with better price. We had a party of 8 and everyone loved everything we ordered, especially the panner tikka pizza which had smoky taste, which I would recommend.</p>
+                            </div>
+                        </div>
+                        <div class="mySlides trans-in">
+                            <div class="text">
+                                <p class="content-p"> Best place to chill out with friends.</p>
+                            </div>
+                        </div>
+                        <div class="mySlides trans-in">
+                            <div class="text">
+                                <p class="content-p"> One of the best place in the locality , delicious food and tender chicken</p>
+                            </div>
+                        </div>
+                        <div class="mySlides trans-in">
+                            <div class="text">
+                                <p class="content-p">Superb taste with good ambience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="clickSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="clickSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="dottedSlide(1)"></span>
+                    <span class="dot" onclick="dottedSlide(2)"></span>
+                    <span class="dot" onclick="dottedSlide(3)"></span>
+                    <span class="dot" onclick="dottedSlide(4)"></span>
+                </div>
+            </div>
+            <div class="half-side-width  slideanim">
+                <form name="contactform" autocomplete="off" action="https://formsubmit.co/wethinc3@gmail.com" onsubmit="return validateform()" method="POST">
+                    <input class="form" type="text" id="fname" name="name" placeholder="Name" required>
+                    <input class="form" type="mail" id="fmail" name="mail" placeholder="E-mail" required>
+                    <textarea class="form" id="fmessage" name="feedback" placeholder="write your feedback here..." style="height:150px" required></textarea>
+                    <div class="button">
+                        <div class="layer-1"></div>
+                        <div class="layer-2"></div>
+                        <div class="layer-3"></div>
+                        <div class="layer-4"></div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="tea" class="patn-det">
+            <h1 class="content-h1 tecenter cwhite1">Team</h1>
+            <div class="pant-fle  slideanim">
+                <div class="pat-sin">
+                    <div class="pat-img"><img src="images/nirvan.jpg" alt=""></div>
+                    <div>
+                        <h1 class="content-h3 tecenter cwhite1">Pranay</h1>
+                    </div>
+                </div>
+                <div class="pat-sin">
+                    <div class="pat-img"><img src="images/nirvan.jpg" alt=""></div>
+                    <div>
+                        <h1 class="content-h3 tecenter cwhite1">Nirvan</h1>
+                    </div>
+                </div>
+                <div class="pat-sin">
+                    <div class="pat-img"><img src="images/nirvan.jpg" alt=""></div>
+                    <div>
+                        <h1 class="content-h3 tecenter cwhite1">Varun</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-row mq-fx-col">
+            <div class="half-side-width slideanim flex-col">
+                <div class="conct">
+                    <div>
+                        <h1 class="content-h1 cwhite1">Contact Us</h1><br>
+                        <div class="con-lis">
+                            <p class="content-h3 cwhite1 wrd-wrap"><i class="fas fa-phone"></i> +91 70759 88946</p>
+                            <p class="content-h3 cwhite1 wrd-wrap"><i class="fas fa-envelope"></i> thenightcap4u@gmail.com</p>
+                            <p class="content-h3 cwhite1" onclick="location.href='https://instagram.com/the_night_cap_'">Follow us<span class="social-sym cwhite1"><i class="fab fa-instagram "></i></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" half-side-width slideanim flex-col">
+                <iframe class="g-map" frameborder="0 " scrolling="no " marginheight="0 " marginwidth="0 " src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=The%20Night%20Cap,%20Divyanagar,%20Narapally,%20Pocharam,%20Hyderabad,%20Telangana+()&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed "></iframe>
+            </div>
+        </div>
+        <br><br><br>
+        <footer>
+            <div id="madeby">
+                <a href="https://wethinc.in">made by &nbsp;<span style="font-size: 150%;">WeThinc.in</span></a>
+            </div>
+        </footer>
+        <br><br><br>
+
+
+
+        <script>
+            function validateform() {
+                var name = document.contactform.name.value;
+                var subject = document.contactform.subject.value;
+                var mail = document.contactform.mail.value;
+                var atposition = mail.indexOf("@ ");
+                var dotposition = mail.lastIndexOf(". ");
+
+                if (name == null || name == " ") {
+                    alert("Name can 't be blank");
+                    return false;
+                } else if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length) {
+                    alert("Please enter a valid e-mail address");
+                    return false;
+                } else if (subject == null || subject == "") {
+                    alert("Subject can't be blank ");
+                    return false;
+                }
+            }
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            var interval = setInterval(function() {
+                plusSlides(1);
+            }, 4000);
+
+            function clickSlides(n) {
+                showSlides(slideIndex += n);
+                clearInterval(interval);
+                interval = setInterval(function() {
+                    plusSlides(1);
+                }, 4000);
+            }
+
+            function dottedSlides(n) {
+                showSlides(slideIndex = n);
+                clearInterval(interval);
+                interval = setInterval(function() {
+                    plusSlides(1);
+                }, 4000);
+            }
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides ");
+                var dots = document.getElementsByClassName("dot ");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none ";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active ", " ");
+                }
+                slides[slideIndex - 1].style.display = "block ";
+                dots[slideIndex - 1].className += " active ";
+
+            }
+        </script>
+    </div>
+
+</body>
+
+</html>
